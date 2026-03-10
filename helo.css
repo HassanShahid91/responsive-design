@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: ;100%
+}
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: crimson
+}
+
+.inner{
+    height: 50vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
+/* viewport width is according to parent
+and vh is viewport height according to main screen not  parent */
+
+
+/* em is according to size of parent 
+rem is dependent on screen size */
+.parent{
+    width: 40%;
+    height: 40%;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1em;
+}
+h3{
+    font-size: .5em;
+}
+
