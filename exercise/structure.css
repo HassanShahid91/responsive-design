@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+}
+
+.logo{
+    margin-top: 15px;
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 15px;
+}
+.button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 158, 158);
+    padding: .8vw .8vw;
+    border-radius: 1vh;
+    border: .2vh solid black;
+    font-size: 1.3vw;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.nav2{
+    display: flex;
+    /* align-items: center;
+    background-color: blanchedalmond; */
+    gap: 5vw;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.nav2 h4{
+    font-size: 1.5vw;
+    font-weight: 1000;
+}
+
+.nav2 i{
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+
+@media (max-width:600px) {
+    nav{
+        background-color: lightseagreen;
+        color: white;
+        padding: 0 6vh;
+    }
+    .logo{
+        font-size: 6vh;
+    }
+    .nav2 h4{
+        font-size: 4vh;
+        display: none;
+    }
+    .nav2 i{
+        display: block;
+        font-size: 6vh;
+    }
+    .content{
+        height: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+    }
+       .left{
+    }
+    .right{
+        width: 570px;
+}
+ }
+ 
+
+.button{
+    display: none;
+}
+
+
+
+/* body */
+.content{ 
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+.left h1{
+    font-size: 4vw;
+    line-height: 4.4vw;
+}
+
+.left h1 span{
+    color: rgb(35, 54, 88);
+}
+
+.left p{
+    color: #352121;
+    font-weight: 500;
+    font-size: 1.2vw;
+    width: 80%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+button{
+    color: rgb(58, 58, 42);
+    background-color: rgb(55, 201, 201);
+    padding: .6vw 1.5vw;
+    border-radius: 1vh;
+    border: .2vh solid black;
+    font-size: 1.5vw;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 10vh 8vh;
+}
